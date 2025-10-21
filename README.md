@@ -18,13 +18,15 @@ A comprehensive, multi-page Power BI dashboard analyzing YouTube channel perform
 ---
 ## 📸 Dashboard Previews
 
+## 📸 Dashboard Previews
+
 | Overview | Video Performance | Engagement Insights |
 |----------|-------------------|---------------------|
-| [![Overview](https://github.com/aditiv101/Youtube_analytics_dashboard/raw/main/Overview.png)](https://github.com/aditiv101/Youtube_analytics_dashboard/raw/main/Overview.png) | [![Video Performance](https://github.com/aditiv101/Youtube_analytics_dashboard/raw/main/Video%20Performance.png)](https://github.com/aditiv101/Youtube_analytics_dashboard/raw/main/Video%20Performance.png) | [![Engagement Insights](https://github.com/aditiv101/Youtube_analytics_dashboard/raw/main/Engagement%20Insights.png)](https://github.com/aditiv101/Youtube_analytics_dashboard/raw/main/Engagement%20Insights.png) |
+| [![Overview](https://raw.githubusercontent.com/aditiv101/Youtube_analytics_dashboard/main/Overview.png)](https://raw.githubusercontent.com/aditiv101/Youtube_analytics_dashboard/main/Overview.png) | [![Video Performance](https://raw.githubusercontent.com/aditiv101/Youtube_analytics_dashboard/main/Video%20Performance.png)](https://raw.githubusercontent.com/aditiv101/Youtube_analytics_dashboard/main/Video%20Performance.png) | [![Engagement Insights](https://raw.githubusercontent.com/aditiv101/Youtube_analytics_dashboard/main/Engagement%20Insights.png)](https://raw.githubusercontent.com/aditiv101/Youtube_analytics_dashboard/main/Engagement%20Insights.png) |
 
 | Content Gallery | Settings/About |
 |----------------|----------------|
-| [![Content Gallery](https://github.com/aditiv101/Youtube_analytics_dashboard/raw/main/Content%20Gallery.png)](https://github.com/aditiv101/Youtube_analytics_dashboard/raw/main/Content%20Gallery.png) | [![Settings/About](https://github.com/aditiv101/Youtube_analytics_dashboard/raw/main/Settings%20About.png)](https://github.com/aditiv101/Youtube_analytics_dashboard/raw/main/Settings%20About.png) |
+| [![Content Gallery](https://raw.githubusercontent.com/aditiv101/Youtube_analytics_dashboard/main/Content%20gallery.png)](https://raw.githubusercontent.com/aditiv101/Youtube_analytics_dashboard/main/Content%20gallery.png) | [![Settings/About](https://raw.githubusercontent.com/aditiv101/Youtube_analytics_dashboard/main/settings%20page.png)](https://raw.githubusercontent.com/aditiv101/Youtube_analytics_dashboard/main/settings%20page.png) |
 
 Click on any image to view full size
 ---
