@@ -1,0 +1,107 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/report/2.1.0/schema.json",
+  "themeCollection": {
+    "baseTheme": {
+      "name": "YouTubeTheme",
+      "reportVersionAtImport": "5.0",
+      "type": "SharedResources"
+    }
+  },
+  "objects": {
+    "section": [
+      {
+        "properties": {
+          "verticalAlignment": {
+            "expr": {
+              "Literal": {
+                "Value": "'Top'"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "outspacePane": [
+      {
+        "properties": {
+          "expanded": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "publicCustomVisuals": [
+    "ChicletSlicer1448559807354"
+  ],
+  "resourcePackages": [
+    {
+      "name": "SharedResources",
+      "type": "SharedResources",
+      "items": [
+        {
+          "name": "YouTubeTheme",
+          "path": "BaseThemes/YouTubeTheme.json",
+          "type": "BaseTheme"
+        }
+      ]
+    },
+    {
+      "name": "RegisteredResources",
+      "type": "RegisteredResources",
+      "items": [
+        {
+          "name": "TOP_HEADER23871922293199155.jpg",
+          "path": "TOP_HEADER23871922293199155.jpg",
+          "type": "Image"
+        },
+        {
+          "name": "LOGO5112419548039313.png",
+          "path": "LOGO5112419548039313.png",
+          "type": "Image"
+        },
+        {
+          "name": "views48461449395001077.png",
+          "path": "views48461449395001077.png",
+          "type": "Image"
+        },
+        {
+          "name": "likes7852300538098865.png",
+          "path": "likes7852300538098865.png",
+          "type": "Image"
+        },
+        {
+          "name": "comments17423559510237296.png",
+          "path": "comments17423559510237296.png",
+          "type": "Image"
+        },
+        {
+          "name": "videolength1961205634061799.png",
+          "path": "videolength1961205634061799.png",
+          "type": "Image"
+        },
+        {
+          "name": "CHANNEL_PROFILE_PHOTO6187214826202522.jpg",
+          "path": "CHANNEL_PROFILE_PHOTO6187214826202522.jpg",
+          "type": "Image"
+        },
+        {
+          "name": "channels4_banner884469447935678.jpg",
+          "path": "channels4_banner884469447935678.jpg",
+          "type": "Image"
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "useStylableVisualContainerHeader": true,
+    "defaultDrillFilterOtherVisuals": true,
+    "allowChangeFilterTypes": true,
+    "useEnhancedTooltips": true,
+    "useDefaultAggregateDisplayName": true
+  }
+}

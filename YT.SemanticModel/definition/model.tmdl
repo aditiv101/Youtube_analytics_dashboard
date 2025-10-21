@@ -1,0 +1,24 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-IN
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["orry_youtube_data_FINAL","DashboardInfo"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+annotation PBIDesktopVersion = 2.145.1602.0 (25.07)+10647c9fa319b5e39936cdb21328038c371d1fe4
+
+ref table orry_youtube_data_FINAL
+ref table DateTableTemplate_d7c757eb-808c-4e51-aea7-da8baf007af8
+ref table LocalDateTable_babb5a8a-0931-492f-adc7-77cbf06b82b5
+ref table DashboardInfo
+ref table LocalDateTable_1e8a99d6-78b9-43a2-942a-ab1ada8d575d
+
+ref cultureInfo en-US
+

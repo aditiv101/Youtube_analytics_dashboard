@@ -1,0 +1,140 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
+  "name": "63772f034ae325239ef2",
+  "position": {
+    "x": 11.428571428571429,
+    "y": 81.428571428571431,
+    "z": 4000,
+    "height": 270,
+    "width": 358.57142857142861,
+    "tabOrder": 4000
+  },
+  "visual": {
+    "visualType": "multiRowCard",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "orry_youtube_data_FINAL"
+                    }
+                  },
+                  "Property": "Total Videos"
+                }
+              },
+              "queryRef": "orry_youtube_data_FINAL.Total Videos",
+              "nativeQueryRef": "Total Videos"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "orry_youtube_data_FINAL"
+                    }
+                  },
+                  "Property": "Avg Views per Video"
+                }
+              },
+              "queryRef": "orry_youtube_data_FINAL.Avg Views per Video",
+              "nativeQueryRef": "Avg Views per Video"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "orry_youtube_data_FINAL"
+                    }
+                  },
+                  "Property": "Avg Duration (Seconds)"
+                }
+              },
+              "queryRef": "orry_youtube_data_FINAL.Avg Duration (Seconds)",
+              "nativeQueryRef": "Avg Duration (Seconds)"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "orry_youtube_data_FINAL"
+                    }
+                  },
+                  "Property": "Avg Likes per Video"
+                }
+              },
+              "queryRef": "orry_youtube_data_FINAL.Avg Likes per Video",
+              "nativeQueryRef": "Avg Likes per Video"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "orry_youtube_data_FINAL"
+                    }
+                  },
+                  "Property": "Avg Comments per Video"
+                }
+              },
+              "queryRef": "orry_youtube_data_FINAL.Avg Comments per Video",
+              "nativeQueryRef": "Avg Comments per Video"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "orry_youtube_data_FINAL"
+                    }
+                  },
+                  "Property": "Avg Engagement Rate"
+                }
+              },
+              "queryRef": "orry_youtube_data_FINAL.Avg Engagement Rate",
+              "nativeQueryRef": "Avg Engagement Rate"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "orry_youtube_data_FINAL"
+                    }
+                  },
+                  "Property": "video_type"
+                }
+              },
+              "queryRef": "orry_youtube_data_FINAL.video_type",
+              "nativeQueryRef": "video_type"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "orry_youtube_data_FINAL"
+                  }
+                },
+                "Property": "Total Videos"
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

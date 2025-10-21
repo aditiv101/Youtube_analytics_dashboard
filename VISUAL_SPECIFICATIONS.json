@@ -1,0 +1,666 @@
+{
+  "dashboardName": "YouTube Analytics Dashboard",
+  "theme": {
+    "name": "YouTube Theme",
+    "colors": {
+      "primary": "#FF0000",
+      "secondary": "#E8E8E8",
+      "text": "#222222",
+      "background": "#FFFFFF",
+      "cardBackground": "#F8F8F8",
+      "accent": "#C40000"
+    },
+    "typography": {
+      "pageTitle": {
+        "size": 24,
+        "font": "Segoe UI Semibold"
+      },
+      "visualTitle": {
+        "size": 14,
+        "font": "Segoe UI Semibold"
+      },
+      "body": {
+        "size": 12,
+        "font": "Segoe UI"
+      },
+      "cardValue": {
+        "size": 24,
+        "font": "Segoe UI"
+      }
+    },
+    "styling": {
+      "borderRadius": 8,
+      "shadow": "0 2px 4px rgba(0,0,0,0.1)",
+      "gridPadding": 20
+    }
+  },
+  "globalHeader": {
+    "type": "rectangle",
+    "position": { "x": 0, "y": 0 },
+    "size": { "width": 1280, "height": 60 },
+    "fill": "#FF0000",
+    "text": {
+      "content": "YouTube Dashboard",
+      "color": "#FFFFFF",
+      "size": 24,
+      "font": "Segoe UI Semibold",
+      "position": { "x": 20, "y": 18 }
+    }
+  },
+  "navigation": {
+    "type": "ChicletSlicer",
+    "version": "2.2.1.0",
+    "position": { "x": 150, "y": 10 },
+    "size": { "width": 900, "height": 40 },
+    "values": ["Overview", "Performance", "Engagement", "Gallery", "Settings"],
+    "config": {
+      "background": "#FFFFFF",
+      "selectedColor": "#FF0000",
+      "textColor": "#222222",
+      "orientation": "Horizontal",
+      "shape": "RoundedRectangle"
+    },
+    "action": "PageNavigation"
+  },
+  "pages": [
+    {
+      "name": "overview",
+      "displayName": "Overview Dashboard",
+      "canvas": { "width": 1280, "height": 720 },
+      "background": "#FFFFFF",
+      "visuals": [
+        {
+          "id": "kpi_total_views",
+          "type": "card",
+          "position": { "x": 20, "y": 80 },
+          "size": { "width": 180, "height": 100 },
+          "field": "[Total Views]",
+          "title": "Total Views",
+          "format": {
+            "background": "#F8F8F8",
+            "titleColor": "#FF0000",
+            "titleSize": 12,
+            "valueSize": 24,
+            "valueColor": "#222222",
+            "borderRadius": 8
+          }
+        },
+        {
+          "id": "kpi_total_likes",
+          "type": "card",
+          "position": { "x": 220, "y": 80 },
+          "size": { "width": 180, "height": 100 },
+          "field": "[Total Likes]",
+          "title": "Total Likes",
+          "format": {
+            "background": "#F8F8F8",
+            "titleColor": "#FF0000",
+            "titleSize": 12,
+            "valueSize": 24,
+            "valueColor": "#222222",
+            "borderRadius": 8
+          }
+        },
+        {
+          "id": "kpi_total_comments",
+          "type": "card",
+          "position": { "x": 420, "y": 80 },
+          "size": { "width": 180, "height": 100 },
+          "field": "[Total Comments]",
+          "title": "Total Comments",
+          "format": {
+            "background": "#F8F8F8",
+            "titleColor": "#FF0000",
+            "titleSize": 12,
+            "valueSize": 24,
+            "valueColor": "#222222",
+            "borderRadius": 8
+          }
+        },
+        {
+          "id": "kpi_engagement_rate",
+          "type": "card",
+          "position": { "x": 620, "y": 80 },
+          "size": { "width": 180, "height": 100 },
+          "field": "[Engagement Rate]",
+          "title": "Engagement Rate",
+          "format": {
+            "background": "#F8F8F8",
+            "titleColor": "#FF0000",
+            "titleSize": 12,
+            "valueSize": 24,
+            "valueColor": "#222222",
+            "borderRadius": 8,
+            "displayUnit": "percentage"
+          }
+        },
+        {
+          "id": "kpi_total_videos",
+          "type": "card",
+          "position": { "x": 820, "y": 80 },
+          "size": { "width": 180, "height": 100 },
+          "field": "[Total Videos]",
+          "title": "Total Videos",
+          "format": {
+            "background": "#F8F8F8",
+            "titleColor": "#FF0000",
+            "titleSize": 12,
+            "valueSize": 24,
+            "valueColor": "#222222",
+            "borderRadius": 8
+          }
+        },
+        {
+          "id": "line_views_over_time",
+          "type": "lineChart",
+          "position": { "x": 20, "y": 200 },
+          "size": { "width": 600, "height": 250 },
+          "title": "Views Over Time",
+          "xAxis": "publish_date",
+          "yAxis": "[Total Views]",
+          "format": {
+            "lineColor": "#FF0000",
+            "lineWidth": 3,
+            "background": "#FFFFFF",
+            "borderRadius": 8,
+            "showDataLabels": false,
+            "gridlines": true
+          }
+        },
+        {
+          "id": "donut_engagement_composition",
+          "type": "donutChart",
+          "position": { "x": 640, "y": 200 },
+          "size": { "width": 300, "height": 250 },
+          "title": "Engagement Composition",
+          "legend": ["Likes", "Comments", "Views"],
+          "values": ["[Total Likes]", "[Total Comments]", "[Total Views]"],
+          "format": {
+            "colors": ["#FF0000", "#C40000", "#E8E8E8"],
+            "showLabels": true,
+            "showPercentage": true,
+            "innerRadius": 50
+          }
+        },
+        {
+          "id": "bar_top_videos",
+          "type": "clusteredBarChart",
+          "position": { "x": 960, "y": 200 },
+          "size": { "width": 300, "height": 250 },
+          "title": "Top Viewed Videos",
+          "axis": "video_name",
+          "values": "[Total Views]",
+          "format": {
+            "barColor": "#FF0000",
+            "sort": "descending",
+            "topN": 10,
+            "showDataLabels": true,
+            "background": "#FFFFFF",
+            "borderRadius": 8
+          }
+        },
+        {
+          "id": "table_recent_videos",
+          "type": "table",
+          "position": { "x": 20, "y": 470 },
+          "size": { "width": 700, "height": 230 },
+          "columns": [
+            "video_name",
+            "[Total Views]",
+            "[Total Likes]",
+            "[Total Comments]",
+            "[Video Type]"
+          ],
+          "format": {
+            "sort": { "column": "publish_date", "order": "descending" },
+            "topN": 5,
+            "alternateRowColor": "#F8F8F8",
+            "headerBackground": "#FF0000",
+            "headerTextColor": "#FFFFFF",
+            "borderRadius": 8
+          }
+        },
+        {
+          "id": "slicer_date_range",
+          "type": "slicer",
+          "slicerType": "between",
+          "position": { "x": 740, "y": 470 },
+          "size": { "width": 250, "height": 100 },
+          "field": "publish_date",
+          "format": {
+            "style": "between",
+            "background": "#F8F8F8",
+            "borderRadius": 8
+          }
+        },
+        {
+          "id": "slicer_video_type",
+          "type": "slicer",
+          "slicerType": "dropdown",
+          "position": { "x": 1010, "y": 470 },
+          "size": { "width": 250, "height": 100 },
+          "field": "[Video Type]",
+          "format": {
+            "style": "dropdown",
+            "background": "#F8F8F8",
+            "borderRadius": 8
+          }
+        }
+      ]
+    },
+    {
+      "name": "performance",
+      "displayName": "Video Performance",
+      "canvas": { "width": 1280, "height": 720 },
+      "background": "#FFFFFF",
+      "visuals": [
+        {
+          "id": "table_detailed_performance",
+          "type": "table",
+          "position": { "x": 20, "y": 80 },
+          "size": { "width": 800, "height": 400 },
+          "columns": [
+            "video_name",
+            "publish_date",
+            "[Total Views]",
+            "[Total Likes]",
+            "[Total Comments]",
+            "[Engagement Rate]",
+            "DurationSeconds"
+          ],
+          "format": {
+            "conditionalFormatting": [
+              {
+                "column": "[Total Views]",
+                "type": "gradient",
+                "minColor": "#FFEBEE",
+                "maxColor": "#FF0000"
+              },
+              {
+                "column": "[Engagement Rate]",
+                "type": "dataBar",
+                "color": "#FF0000"
+              }
+            ],
+            "alternateRowColor": "#F8F8F8",
+            "headerBackground": "#FF0000",
+            "headerTextColor": "#FFFFFF",
+            "borderRadius": 8
+          }
+        },
+        {
+          "id": "bar_performance_breakdown",
+          "type": "clusteredBarChart",
+          "position": { "x": 840, "y": 80 },
+          "size": { "width": 420, "height": 300 },
+          "title": "Video Performance Breakdown",
+          "axis": "video_name",
+          "values": ["[Total Views]", "[Total Likes]", "[Total Comments]"],
+          "format": {
+            "colors": ["#FF0000", "#C40000", "#E8E8E8"],
+            "topN": 10,
+            "showDataLabels": false,
+            "legend": true,
+            "borderRadius": 8
+          }
+        },
+        {
+          "id": "scatter_engagement_duration",
+          "type": "scatterChart",
+          "position": { "x": 840, "y": 400 },
+          "size": { "width": 420, "height": 300 },
+          "title": "Engagement vs Duration",
+          "xAxis": "DurationSeconds",
+          "yAxis": "[Engagement Rate]",
+          "size": "[Total Views]",
+          "format": {
+            "color": "#FF0000",
+            "showTrendline": true,
+            "borderRadius": 8
+          }
+        },
+        {
+          "id": "slicer_date_range_perf",
+          "type": "slicer",
+          "position": { "x": 20, "y": 500 },
+          "size": { "width": 250, "height": 80 },
+          "field": "publish_date",
+          "format": { "style": "between" }
+        },
+        {
+          "id": "slicer_video_type_perf",
+          "type": "slicer",
+          "position": { "x": 290, "y": 500 },
+          "size": { "width": 250, "height": 80 },
+          "field": "[Video Type]",
+          "format": { "style": "dropdown" }
+        },
+        {
+          "id": "slicer_video_search",
+          "type": "slicer",
+          "position": { "x": 560, "y": 500 },
+          "size": { "width": 250, "height": 80 },
+          "field": "video_name",
+          "format": { "style": "search" }
+        }
+      ]
+    },
+    {
+      "name": "engagement",
+      "displayName": "Engagement Insights",
+      "canvas": { "width": 1280, "height": 720 },
+      "background": "#FFFFFF",
+      "visuals": [
+        {
+          "id": "combo_engagement_trends",
+          "type": "lineAndClusteredColumnChart",
+          "position": { "x": 20, "y": 80 },
+          "size": { "width": 800, "height": 300 },
+          "title": "Engagement Trends Over Time",
+          "axis": "publish_date",
+          "columnValues": ["[Total Likes]", "[Total Comments]"],
+          "lineValues": ["[Total Views]"],
+          "format": {
+            "columnColors": ["#FF0000", "#C40000"],
+            "lineColor": "#222222",
+            "lineWidth": 2,
+            "borderRadius": 8
+          }
+        },
+        {
+          "id": "card_top_video_1",
+          "type": "multiRowCard",
+          "position": { "x": 840, "y": 80 },
+          "size": { "width": 420, "height": 90 },
+          "title": "🥇 Top Performing Video",
+          "fields": ["video_name", "[Engagement Rate]"],
+          "filter": { "type": "topN", "n": 1, "by": "[Engagement Rate]" },
+          "format": {
+            "background": "#F8F8F8",
+            "borderRadius": 8,
+            "titleColor": "#FF0000"
+          }
+        },
+        {
+          "id": "card_top_video_2",
+          "type": "multiRowCard",
+          "position": { "x": 840, "y": 180 },
+          "size": { "width": 420, "height": 90 },
+          "title": "🥈 Second Best",
+          "fields": ["video_name", "[Engagement Rate]"],
+          "filter": { "type": "topN", "n": 2, "by": "[Engagement Rate]", "skip": 1 },
+          "format": {
+            "background": "#F8F8F8",
+            "borderRadius": 8,
+            "titleColor": "#C40000"
+          }
+        },
+        {
+          "id": "card_top_video_3",
+          "type": "multiRowCard",
+          "position": { "x": 840, "y": 280 },
+          "size": { "width": 420, "height": 90 },
+          "title": "🥉 Third Place",
+          "fields": ["video_name", "[Engagement Rate]"],
+          "filter": { "type": "topN", "n": 3, "by": "[Engagement Rate]", "skip": 2 },
+          "format": {
+            "background": "#F8F8F8",
+            "borderRadius": 8,
+            "titleColor": "#E8E8E8"
+          }
+        },
+        {
+          "id": "matrix_engagement_heatmap",
+          "type": "matrix",
+          "position": { "x": 20, "y": 400 },
+          "size": { "width": 500, "height": 300 },
+          "title": "Engagement Heatmap by Weekday",
+          "rows": "[Weekday Name]",
+          "columns": "Metric",
+          "values": ["[Total Likes]", "[Total Comments]"],
+          "format": {
+            "conditionalFormatting": {
+              "type": "colorScale",
+              "minColor": "#FFFFFF",
+              "midColor": "#FFCDD2",
+              "maxColor": "#FF0000"
+            },
+            "borderRadius": 8
+          }
+        },
+        {
+          "id": "donut_likes_vs_comments",
+          "type": "donutChart",
+          "position": { "x": 540, "y": 400 },
+          "size": { "width": 300, "height": 300 },
+          "title": "Engagement Split",
+          "legend": ["Likes", "Comments"],
+          "values": ["[Total Likes]", "[Total Comments]"],
+          "format": {
+            "colors": ["#FF0000", "#C40000"],
+            "showPercentage": true,
+            "innerRadius": 50
+          }
+        },
+        {
+          "id": "gauge_avg_engagement",
+          "type": "gauge",
+          "position": { "x": 860, "y": 400 },
+          "size": { "width": 400, "height": 300 },
+          "title": "Average Engagement Rate",
+          "value": "[Avg Engagement Rate]",
+          "target": 0.05,
+          "format": {
+            "minValue": 0,
+            "maxValue": 0.1,
+            "colors": {
+              "low": "#E8E8E8",
+              "medium": "#FF6B6B",
+              "high": "#FF0000"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "gallery",
+      "displayName": "Content Gallery",
+      "canvas": { "width": 1280, "height": 720 },
+      "background": "#FFFFFF",
+      "visuals": [
+        {
+          "id": "image_grid",
+          "type": "table",
+          "position": { "x": 20, "y": 80 },
+          "size": { "width": 1000, "height": 620 },
+          "columns": ["thumbnail_url"],
+          "tooltip": [
+            "video_name",
+            "[Total Views]",
+            "[Total Likes]",
+            "DurationSeconds"
+          ],
+          "format": {
+            "imageHeight": 150,
+            "columnsPerRow": 4,
+            "borderColor": "#E8E8E8",
+            "highlightBorder": "#FF0000",
+            "highlightCondition": "[Top 10% Engagement Threshold]"
+          }
+        },
+        {
+          "id": "slicer_video_type_gallery",
+          "type": "slicer",
+          "position": { "x": 1040, "y": 80 },
+          "size": { "width": 220, "height": 100 },
+          "field": "[Video Type]",
+          "format": {
+            "style": "dropdown",
+            "background": "#F8F8F8",
+            "borderRadius": 8
+          }
+        },
+        {
+          "id": "slicer_date_range_gallery",
+          "type": "slicer",
+          "position": { "x": 1040, "y": 200 },
+          "size": { "width": 220, "height": 100 },
+          "field": "publish_date",
+          "format": {
+            "style": "between",
+            "background": "#F8F8F8",
+            "borderRadius": 8
+          }
+        },
+        {
+          "id": "card_video_count",
+          "type": "card",
+          "position": { "x": 1040, "y": 320 },
+          "size": { "width": 220, "height": 80 },
+          "field": "[Total Videos]",
+          "title": "Videos Shown",
+          "format": {
+            "background": "#F8F8F8",
+            "titleColor": "#FF0000",
+            "borderRadius": 8
+          }
+        }
+      ]
+    },
+    {
+      "name": "settings",
+      "displayName": "Settings / About",
+      "canvas": { "width": 1280, "height": 720 },
+      "background": "#FFFFFF",
+      "visuals": [
+        {
+          "id": "textbox_dashboard_info",
+          "type": "textBox",
+          "position": { "x": 100, "y": 100 },
+          "size": { "width": 1080, "height": 100 },
+          "text": "YouTube Analytics Dashboard – Created in Power BI",
+          "format": {
+            "font": "Roboto Bold",
+            "size": 16,
+            "color": "#222222",
+            "alignment": "center",
+            "background": "#F8F8F8",
+            "borderRadius": 8
+          }
+        },
+        {
+          "id": "card_avg_likes",
+          "type": "card",
+          "position": { "x": 100, "y": 230 },
+          "size": { "width": 300, "height": 120 },
+          "field": "[Avg Likes per Video]",
+          "title": "Average Likes per Video",
+          "format": {
+            "background": "#F8F8F8",
+            "titleColor": "#FF0000",
+            "borderRadius": 8
+          }
+        },
+        {
+          "id": "card_avg_comments",
+          "type": "card",
+          "position": { "x": 490, "y": 230 },
+          "size": { "width": 300, "height": 120 },
+          "field": "[Avg Comments per Video]",
+          "title": "Average Comments per Video",
+          "format": {
+            "background": "#F8F8F8",
+            "titleColor": "#FF0000",
+            "borderRadius": 8
+          }
+        },
+        {
+          "id": "card_avg_duration",
+          "type": "card",
+          "position": { "x": 880, "y": 230 },
+          "size": { "width": 300, "height": 120 },
+          "field": "[Avg Duration (Seconds)]",
+          "title": "Average Video Duration (sec)",
+          "format": {
+            "background": "#F8F8F8",
+            "titleColor": "#FF0000",
+            "borderRadius": 8
+          }
+        },
+        {
+          "id": "button_refresh",
+          "type": "button",
+          "position": { "x": 400, "y": 400 },
+          "size": { "width": 200, "height": 60 },
+          "text": "Refresh Data",
+          "action": "refresh",
+          "format": {
+            "background": "#FF0000",
+            "textColor": "#FFFFFF",
+            "fontSize": 14,
+            "borderRadius": 8,
+            "hoverBackground": "#C40000"
+          }
+        },
+        {
+          "id": "button_dark_mode",
+          "type": "button",
+          "position": { "x": 680, "y": 400 },
+          "size": { "width": 200, "height": 60 },
+          "text": "Dark Mode",
+          "action": "bookmarkToggle",
+          "format": {
+            "background": "#FF0000",
+            "textColor": "#FFFFFF",
+            "fontSize": 14,
+            "borderRadius": 8,
+            "hoverBackground": "#C40000"
+          }
+        },
+        {
+          "id": "image_logo",
+          "type": "image",
+          "position": { "x": 540, "y": 500 },
+          "size": { "width": 200, "height": 150 },
+          "source": "LOGO.png",
+          "format": {
+            "fitType": "fit"
+          }
+        }
+      ]
+    }
+  ],
+  "interactions": {
+    "crossFiltering": true,
+    "drillThrough": [
+      {
+        "from": "overview",
+        "to": "performance",
+        "field": "video_name"
+      }
+    ],
+    "bookmarks": [
+      {
+        "name": "Top 5 Videos",
+        "filters": [
+          {
+            "field": "video_name",
+            "type": "topN",
+            "n": 5,
+            "by": "[Total Views]"
+          }
+        ]
+      },
+      {
+        "name": "Recent Uploads",
+        "filters": [
+          {
+            "field": "publish_date",
+            "type": "relative",
+            "days": 30
+          }
+        ]
+      }
+    ]
+  }
+}

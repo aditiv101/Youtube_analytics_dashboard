@@ -1,0 +1,67 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
+  "name": "248d16290967e6cca308",
+  "position": {
+    "x": 11.111111111111111,
+    "y": 362.22222222222223,
+    "z": 0,
+    "height": 336.66666666666669,
+    "width": 740
+  },
+  "visual": {
+    "visualType": "lineChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "HierarchyLevel": {
+                  "Expression": {
+                    "Hierarchy": {
+                      "Expression": {
+                        "PropertyVariationSource": {
+                          "Expression": {
+                            "SourceRef": {
+                              "Entity": "orry_youtube_data_FINAL"
+                            }
+                          },
+                          "Name": "Variation",
+                          "Property": "publish_date"
+                        }
+                      },
+                      "Hierarchy": "Date Hierarchy"
+                    }
+                  },
+                  "Level": "Month"
+                }
+              },
+              "queryRef": "orry_youtube_data_FINAL.publish_date.Variation.Date Hierarchy.Month",
+              "nativeQueryRef": "publish_date Month",
+              "active": true
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "orry_youtube_data_FINAL"
+                    }
+                  },
+                  "Property": "Avg Engagement Rate"
+                }
+              },
+              "queryRef": "orry_youtube_data_FINAL.Avg Engagement Rate",
+              "nativeQueryRef": "Avg Engagement Rate"
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

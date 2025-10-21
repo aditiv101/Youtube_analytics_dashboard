@@ -1,0 +1,194 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
+  "name": "7f2f1115dab66e05eb48",
+  "position": {
+    "x": 0,
+    "y": 224.86193984780769,
+    "z": 2000,
+    "height": 495.3641744172001,
+    "width": 785.90361154728828,
+    "tabOrder": 1000
+  },
+  "visual": {
+    "visualType": "lineChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "HierarchyLevel": {
+                  "Expression": {
+                    "Hierarchy": {
+                      "Expression": {
+                        "PropertyVariationSource": {
+                          "Expression": {
+                            "SourceRef": {
+                              "Entity": "orry_youtube_data_FINAL"
+                            }
+                          },
+                          "Name": "Variation",
+                          "Property": "publish_date"
+                        }
+                      },
+                      "Hierarchy": "Date Hierarchy"
+                    }
+                  },
+                  "Level": "Month"
+                }
+              },
+              "queryRef": "orry_youtube_data_FINAL.publish_date.Variation.Date Hierarchy.Month",
+              "nativeQueryRef": "publish_date Month",
+              "active": true
+            }
+          ]
+        },
+        "Tooltips": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "orry_youtube_data_FINAL"
+                    }
+                  },
+                  "Property": "Avg Likes per Video"
+                }
+              },
+              "queryRef": "orry_youtube_data_FINAL.Avg Likes per Video",
+              "nativeQueryRef": "Avg Likes per Video"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "orry_youtube_data_FINAL"
+                    }
+                  },
+                  "Property": "Avg Views per Video"
+                }
+              },
+              "queryRef": "orry_youtube_data_FINAL.Avg Views per Video",
+              "nativeQueryRef": "Avg Views per Video"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "orry_youtube_data_FINAL"
+                    }
+                  },
+                  "Property": "Engagement Rate"
+                }
+              },
+              "queryRef": "orry_youtube_data_FINAL.Engagement Rate",
+              "nativeQueryRef": "Engagement Rate"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "orry_youtube_data_FINAL"
+                    }
+                  },
+                  "Property": "Avg Comments per Video"
+                }
+              },
+              "queryRef": "orry_youtube_data_FINAL.Avg Comments per Video",
+              "nativeQueryRef": "Avg Comments per Video"
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "orry_youtube_data_FINAL"
+                        }
+                      },
+                      "Property": "sum_of_views"
+                    }
+                  },
+                  "Function": 0
+                }
+              },
+              "queryRef": "Sum(orry_youtube_data_FINAL.sum_of_views)",
+              "nativeQueryRef": "Sum of sum_of_views"
+            }
+          ]
+        }
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Views Over Time'"
+                }
+              }
+            },
+            "alignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'center'"
+                }
+              }
+            },
+            "bold": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": -0.25
+                    }
+                  }
+                }
+              }
+            },
+            "fontFamily": {
+              "expr": {
+                "Literal": {
+                  "Value": "'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "border": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

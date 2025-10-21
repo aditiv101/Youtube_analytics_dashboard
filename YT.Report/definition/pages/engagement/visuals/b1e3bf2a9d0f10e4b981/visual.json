@@ -1,0 +1,67 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
+  "name": "b1e3bf2a9d0f10e4b981",
+  "position": {
+    "x": 381.42857142857144,
+    "y": 82.857142857142861,
+    "z": 3000,
+    "height": 270,
+    "width": 567.14285714285722,
+    "tabOrder": 3000
+  },
+  "visual": {
+    "visualType": "kpi",
+    "query": {
+      "queryState": {
+        "Indicator": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "orry_youtube_data_FINAL"
+                    }
+                  },
+                  "Property": "Avg Engagement Rate"
+                }
+              },
+              "queryRef": "orry_youtube_data_FINAL.Avg Engagement Rate",
+              "nativeQueryRef": "Avg Engagement Rate"
+            }
+          ]
+        },
+        "TrendLine": {
+          "projections": [
+            {
+              "field": {
+                "HierarchyLevel": {
+                  "Expression": {
+                    "Hierarchy": {
+                      "Expression": {
+                        "PropertyVariationSource": {
+                          "Expression": {
+                            "SourceRef": {
+                              "Entity": "orry_youtube_data_FINAL"
+                            }
+                          },
+                          "Name": "Variation",
+                          "Property": "publish_date"
+                        }
+                      },
+                      "Hierarchy": "Date Hierarchy"
+                    }
+                  },
+                  "Level": "Month"
+                }
+              },
+              "queryRef": "orry_youtube_data_FINAL.publish_date.Variation.Date Hierarchy.Month",
+              "nativeQueryRef": "publish_date Month"
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

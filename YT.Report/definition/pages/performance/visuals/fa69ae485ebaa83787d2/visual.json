@@ -1,0 +1,201 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
+  "name": "fa69ae485ebaa83787d2",
+  "position": {
+    "x": 0,
+    "y": 72.857142857142861,
+    "z": 0,
+    "height": 347.14285714285717,
+    "width": 712.85714285714289
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "orry_youtube_data_FINAL"
+                    }
+                  },
+                  "Property": "video_name"
+                }
+              },
+              "queryRef": "orry_youtube_data_FINAL.video_name",
+              "nativeQueryRef": "Video Name",
+              "displayName": "Video Name"
+            },
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "orry_youtube_data_FINAL"
+                        }
+                      },
+                      "Property": "sum_of_views"
+                    }
+                  },
+                  "Function": 0
+                }
+              },
+              "queryRef": "Sum(orry_youtube_data_FINAL.sum_of_views)",
+              "nativeQueryRef": "Views",
+              "displayName": "Views"
+            },
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "orry_youtube_data_FINAL"
+                        }
+                      },
+                      "Property": "sum_of_likes"
+                    }
+                  },
+                  "Function": 0
+                }
+              },
+              "queryRef": "Sum(orry_youtube_data_FINAL.sum_of_likes)",
+              "nativeQueryRef": "Likes",
+              "displayName": "Likes"
+            },
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "orry_youtube_data_FINAL"
+                        }
+                      },
+                      "Property": "sum_of_comments"
+                    }
+                  },
+                  "Function": 0
+                }
+              },
+              "queryRef": "Sum(orry_youtube_data_FINAL.sum_of_comments)",
+              "nativeQueryRef": "Comments",
+              "displayName": "Comments"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "orry_youtube_data_FINAL"
+                    }
+                  },
+                  "Property": "Engagement Rate"
+                }
+              },
+              "queryRef": "orry_youtube_data_FINAL.Engagement Rate",
+              "nativeQueryRef": "Engagement Rate"
+            },
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "orry_youtube_data_FINAL"
+                        }
+                      },
+                      "Property": "video_length_sec"
+                    }
+                  },
+                  "Function": 0
+                }
+              },
+              "queryRef": "Sum(orry_youtube_data_FINAL.video_length_sec)",
+              "nativeQueryRef": "Video Length",
+              "displayName": "Video Length"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Aggregation": {
+                "Expression": {
+                  "Column": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Entity": "orry_youtube_data_FINAL"
+                      }
+                    },
+                    "Property": "sum_of_views"
+                  }
+                },
+                "Function": 0
+              }
+            },
+            "direction": "Descending"
+          }
+        ]
+      }
+    },
+    "objects": {
+      "columnWidth": [
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "196.7219613168824D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "orry_youtube_data_FINAL.video_name"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "67.48233171298358D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Sum(orry_youtube_data_FINAL.sum_of_likes)"
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "border": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

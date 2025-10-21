@@ -1,0 +1,75 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
+  "name": "17e3845d682520fb4451",
+  "position": {
+    "x": 761.11111111111109,
+    "y": 361.11111111111109,
+    "z": 2000,
+    "height": 336.66666666666669,
+    "width": 511.11111111111109,
+    "tabOrder": 2000
+  },
+  "visual": {
+    "visualType": "columnChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "orry_youtube_data_FINAL"
+                    }
+                  },
+                  "Property": "Weekday Name"
+                }
+              },
+              "queryRef": "orry_youtube_data_FINAL.Weekday Name",
+              "nativeQueryRef": "Weekday Name",
+              "active": true
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "orry_youtube_data_FINAL"
+                    }
+                  },
+                  "Property": "Avg Engagement Rate"
+                }
+              },
+              "queryRef": "orry_youtube_data_FINAL.Avg Engagement Rate",
+              "nativeQueryRef": "Avg Engagement Rate"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "orry_youtube_data_FINAL"
+                  }
+                },
+                "Property": "Avg Engagement Rate"
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

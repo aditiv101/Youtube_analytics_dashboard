@@ -1,0 +1,5443 @@
+cultureInfo en-US
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "orry_youtube_data_FINAL": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "orry_youtube_data_FINAL"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "orry youtube data FINAL": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "orry_youtube_data_FINAL": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "orry youtube information final": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "orry youtube fact final": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "orry youtube info final": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "orry youtube statistic final": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "orry youtube document final": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "orry youtube figure final": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "orry youtube record final": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "orry youtube data decider": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.464
+			          }
+			        },
+			        {
+			          "orry youtube data round": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.45
+			          }
+			        },
+			        {
+			          "orry youtube data match": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.45
+			          }
+			        }
+			      ]
+			    },
+			    "orry_youtube_data_FINAL.video_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "orry_youtube_data_FINAL",
+			          "ConceptualProperty": "video_name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "video name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "video_name": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "video": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "video nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "video title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "video label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "video tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "audiovisual": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "film": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "movie": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "videocassette": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "cassette": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "cartridge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "orry_youtube_data_FINAL.publish_date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "orry_youtube_data_FINAL",
+			          "ConceptualProperty": "publish_date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "publish date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "publish_date": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "publish moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "publish period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "orry_youtube_data_FINAL.publish_date.date_hierarchy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "orry_youtube_data_FINAL",
+			          "VariationSource": "publish_date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "publish date hierarchy": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "orry_youtube_data_FINAL.publish_date.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "orry_youtube_data_FINAL",
+			          "VariationSource": "publish_date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "publish year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "publish date year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "publish moment year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "publish date yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "publish yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "publish period year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "orry_youtube_data_FINAL.publish_date.quarter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "orry_youtube_data_FINAL",
+			          "VariationSource": "publish_date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Quarter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "publish quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "publish date quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "publish date qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.846
+			          }
+			        },
+			        {
+			          "publish qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.833
+			          }
+			        },
+			        {
+			          "qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        },
+			        {
+			          "publish moment quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "publish period quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "orry_youtube_data_FINAL.publish_date.month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "orry_youtube_data_FINAL",
+			          "VariationSource": "publish_date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "publish month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "publish date month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "publish moment month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "publish date mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "publish mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "publish period month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "orry_youtube_data_FINAL.publish_date.day": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "orry_youtube_data_FINAL",
+			          "VariationSource": "publish_date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Day"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "publish day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "publish date day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "publish moment day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "publish period day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "orry_youtube_data_FINAL.sum_of_views": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "orry_youtube_data_FINAL",
+			          "ConceptualProperty": "sum_of_views"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "sum of views": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "sum of view": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "sum_of_views": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "quantity of view": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.769
+			          }
+			        },
+			        {
+			          "summation of view": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "aggregation of view": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "total of view": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "aggregate of view": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "amount of view": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "orry_youtube_data_FINAL.sum_of_likes": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "orry_youtube_data_FINAL",
+			          "ConceptualProperty": "sum_of_likes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "sum of likes": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "sum of like": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "sum_of_likes": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "quantity of like": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.769
+			          }
+			        },
+			        {
+			          "summation of like": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "aggregation of like": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "total of like": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "aggregate of like": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "amount of like": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "orry_youtube_data_FINAL.sum_of_comments": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "orry_youtube_data_FINAL",
+			          "ConceptualProperty": "sum_of_comments"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "sum of comments": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "sum of comment": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "sum_of_comments": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "quantity of comment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.769
+			          }
+			        },
+			        {
+			          "summation of comment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "aggregation of comment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "total of comment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "aggregate of comment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "amount of comment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "orry_youtube_data_FINAL.video_length": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "orry_youtube_data_FINAL",
+			          "ConceptualProperty": "video_length"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "video length": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "video_length": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "length": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "video measurement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "video extent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "video interval": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "measurement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "extent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "interval": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "video distance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "video span": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "video dimension": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "video size": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "orry_youtube_data_FINAL.thumbnail_url": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "orry_youtube_data_FINAL",
+			          "ConceptualProperty": "thumbnail_url"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "thumbnail url": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "thumbnail_url": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "url": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "thumbnail website": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "website": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "thumbnail site": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "site": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "thumbnail web address": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.589
+			          }
+			        },
+			        {
+			          "web address": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.571
+			          }
+			        },
+			        {
+			          "Thumbnail": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "orry_youtube_data_FINAL.video_length_sec": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "orry_youtube_data_FINAL",
+			          "ConceptualProperty": "video_length_sec"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "video length sec": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "video_length_sec": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "video measurement sec": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "video extent sec": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "video interval sec": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "video distance sec": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "video span sec": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "video dimension sec": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "video size sec": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "video stretch sec": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "video quantity sec": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "video piece sec": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.468
+			          }
+			        }
+			      ]
+			    },
+			    "orry_youtube_data_FINAL.video_type": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "orry_youtube_data_FINAL",
+			          "ConceptualProperty": "video_type"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "video type": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "video_type": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "type": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "video category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "video genre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "video manner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "video variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "genre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "manner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "video brand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "video class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "Shorts/Video": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "orry_youtube_data_FINAL.weekday_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "orry_youtube_data_FINAL",
+			          "ConceptualProperty": "Weekday Name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "weekday name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "weekday": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "weekday nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "weekday title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "weekday label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "weekday tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "ordinary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "standard": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "basic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "routine": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "orry_youtube_data_FINAL.weekday_number": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "orry_youtube_data_FINAL",
+			          "ConceptualProperty": "Weekday Number"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "weekday number": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "weekday no": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "orry_youtube_data_FINAL.engagement_rate": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "orry_youtube_data_FINAL",
+			          "ConceptualProperty": "Engagement_Rate"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "engagement rate": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Engagement_Rate": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "rate": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "engagement degree": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "engagement frequency": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "engagement percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "engagement ratio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "engagement quotient": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "degree": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "frequency": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "ratio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "quotient": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "engagement amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "orry_youtube_data_FINAL.total_views": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "orry_youtube_data_FINAL",
+			          "ConceptualProperty": "Total Views"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total views": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "views": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aggregate view": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall view": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "total opinion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total interpretation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "opinion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "interpretation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "total understanding": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "understanding": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "orry_youtube_data_FINAL.total_likes": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "orry_youtube_data_FINAL",
+			          "ConceptualProperty": "Total Likes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total likes": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "likes": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aggregate like": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall like": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "orry_youtube_data_FINAL.total_comments": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "orry_youtube_data_FINAL",
+			          "ConceptualProperty": "Total Comments"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total comments": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "comments": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aggregate comment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall comment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "total commentary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total explanation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total observation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total annotation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total clarification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total interpretation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "commentary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "explanation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "orry_youtube_data_FINAL.engagement_rate1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "orry_youtube_data_FINAL",
+			          "ConceptualProperty": "Engagement Rate"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "engagement rate": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "rate": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "engagement degree": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "engagement frequency": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "engagement percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "engagement ratio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "engagement quotient": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "degree": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "frequency": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "ratio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "quotient": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "engagement amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "orry_youtube_data_FINAL.total_videos": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "orry_youtube_data_FINAL",
+			          "ConceptualProperty": "Total Videos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total videos": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "videos": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aggregate video": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall video": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "total videocassette": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total cassette": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total cartridge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "videocassette": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "cassette": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "cartridge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "total videotape": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "total tape": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "orry_youtube_data_FINAL.avg_likes_per_video": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "orry_youtube_data_FINAL",
+			          "ConceptualProperty": "Avg Likes per Video"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "avg likes per video": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "average like per video": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "orry_youtube_data_FINAL.avg_comments_per_video": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "orry_youtube_data_FINAL",
+			          "ConceptualProperty": "Avg Comments per Video"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "avg comments per video": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "average comment per video": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "avg commentary per video": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "avg explanation per video": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "avg observation per video": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "avg annotation per video": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "avg clarification per video": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "avg interpretation per video": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "avg remark per video": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "avg note per video": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "avg statement per video": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.489
+			          }
+			        }
+			      ]
+			    },
+			    "orry_youtube_data_FINAL.avg_duration": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "orry_youtube_data_FINAL",
+			          "ConceptualProperty": "Avg Duration (Seconds)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "avg duration": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "avg duration (Seconds)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "average duration (second)": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "average duration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "avg length": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "avg extent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "avg interval": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "avg period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "avg spell": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "Duration": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ],
+			      "Units": [
+			        "second"
+			      ]
+			    },
+			    "orry_youtube_data_FINAL.avg_views_per_video": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "orry_youtube_data_FINAL",
+			          "ConceptualProperty": "Avg Views per Video"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "avg views per video": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "average view per video": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "avg opinion per video": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "avg interpretation per video": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "avg assessment per video": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "avg understanding per video": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "avg outlook per video": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.489
+			          }
+			        },
+			        {
+			          "avg observation per video": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.489
+			          }
+			        },
+			        {
+			          "avg examination per video": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.489
+			          }
+			        },
+			        {
+			          "avg analysis per video": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.489
+			          }
+			        },
+			        {
+			          "avg inspection per video": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.489
+			          }
+			        }
+			      ]
+			    },
+			    "orry_youtube_data_FINAL.top_10_engagement_threshold": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "orry_youtube_data_FINAL",
+			          "ConceptualProperty": "Top 10% Engagement Threshold"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "top 10% engagement threshold": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "top 10 percentage engagement threshold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "best 10% engagement threshold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "first 10% engagement threshold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "leading 10% engagement threshold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "maximum 10% engagement threshold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "peak 10% engagement threshold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "upper 10% engagement threshold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "top 10 pct engagement threshold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "top 10% engagement brink": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.52
+			          }
+			        },
+			        {
+			          "top 10% engagement onset": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.52
+			          }
+			        }
+			      ]
+			    },
+			    "orry_youtube_data_FINAL.views_to_likes_ratio": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "orry_youtube_data_FINAL",
+			          "ConceptualProperty": "Views to Likes Ratio"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "views to likes ratio": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "opinion to like ratio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "interpretation to like ratio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "assessment to like ratio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "understanding to like ratio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "outlook to like ratio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.489
+			          }
+			        },
+			        {
+			          "observation to like ratio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.489
+			          }
+			        },
+			        {
+			          "examination to like ratio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.489
+			          }
+			        },
+			        {
+			          "analysis to like ratio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.489
+			          }
+			        },
+			        {
+			          "inspection to like ratio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.489
+			          }
+			        },
+			        {
+			          "sight to like ratio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.474
+			          }
+			        }
+			      ]
+			    },
+			    "orry_youtube_data_FINAL.avg_engagement_rate": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "orry_youtube_data_FINAL",
+			          "ConceptualProperty": "Avg Engagement Rate"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "avg engagement rate": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "average engagement rate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "avg engagement degree": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "avg engagement frequency": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "avg engagement percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "avg engagement ratio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "avg engagement quotient": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "avg engagement amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "avg engagement proportion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "avg engagement speed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "avg engagement level": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    },
+			    "orry_youtube_data_FINAL.total_engagement": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "orry_youtube_data_FINAL",
+			          "ConceptualProperty": "Total Engagement"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total engagement": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "engagement": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aggregate engagement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall engagement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "total appointment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total assignation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total commitment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total arrangement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "appointment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "assignation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "commitment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "arrangement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "orry_youtube_data_FINAL.short_videos_count": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "orry_youtube_data_FINAL",
+			          "ConceptualProperty": "Short Videos Count"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "short videos count": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "videos count": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "short video amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "video amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "orry_youtube_data_FINAL.long_videos_count": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "orry_youtube_data_FINAL",
+			          "ConceptualProperty": "Long Videos Count"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "long videos count": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "videos count": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "long video amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "video amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "dashboard_info": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DashboardInfo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dashboard info": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DashboardInfo": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "info": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "dashboard information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "dashboard data": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "data": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "dashboard gen": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "gen": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "dashboard news": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "dashboard intelligence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "dashboard knowledge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "news": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "dashboard_info.version": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DashboardInfo",
+			          "ConceptualProperty": "Version"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "version": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "form": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "kind": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "style": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "description": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "account": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "report": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "story": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "side": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "dashboard_info.last_refresh": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DashboardInfo",
+			          "ConceptualProperty": "Last Refresh"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "last refresh": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "refresh": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "end refresh": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "final refresh": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "closing refresh": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "concluding refresh": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "finishing refresh": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "former refresh": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "latest refresh": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "latter refresh": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "past refresh": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "remaining refresh": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "dashboard_info.last_refresh.date_hierarchy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DashboardInfo",
+			          "VariationSource": "Last Refresh",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "last refresh date hierarchy": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "refresh date hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "dashboard_info.last_refresh.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DashboardInfo",
+			          "VariationSource": "Last Refresh",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "last refresh year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "refresh year": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "last refresh yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "refresh yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "end refresh year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "final refresh year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "closing refresh year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "concluding refresh year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "finishing refresh year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "former refresh year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "latest refresh year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "dashboard_info.last_refresh.quarter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DashboardInfo",
+			          "VariationSource": "Last Refresh",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Quarter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "last refresh quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "refresh quarter": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "last refresh qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.846
+			          }
+			        },
+			        {
+			          "refresh qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.833
+			          }
+			        },
+			        {
+			          "qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        },
+			        {
+			          "end refresh quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "final refresh quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "closing refresh quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "concluding refresh quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "finishing refresh quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "former refresh quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "latest refresh quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "dashboard_info.last_refresh.month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DashboardInfo",
+			          "VariationSource": "Last Refresh",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "last refresh month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "refresh month": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "last refresh mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "refresh mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "end refresh month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "final refresh month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "closing refresh month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "concluding refresh month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "finishing refresh month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "former refresh month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "latest refresh month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "dashboard_info.last_refresh.day": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DashboardInfo",
+			          "VariationSource": "Last Refresh",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Day"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "last refresh day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "refresh day": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "end refresh day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "final refresh day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "closing refresh day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "concluding refresh day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "finishing refresh day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "former refresh day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "latest refresh day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "latter refresh day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "past refresh day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "remaining refresh day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "dashboard_info.author": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DashboardInfo",
+			          "ConceptualProperty": "Author"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "author": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "writer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "creator": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "journalist": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "novelist": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "poet": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "orry_youtube_data_FINAL_publish_date_date_hierarchy_has_orry_youtube_data_FINAL_publish_date_year": {
+			      "Binding": {
+			        "ConceptualEntity": "orry_youtube_data_FINAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "orry_youtube_data_FINAL.publish_date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "orry_youtube_data_FINAL.publish_date.date_hierarchy"
+			          }
+			        },
+			        "orry_youtube_data_FINAL.publish_date.year": {
+			          "Target": {
+			            "Entity": "orry_youtube_data_FINAL.publish_date.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "orry_youtube_data_FINAL.publish_date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "orry_youtube_data_FINAL.publish_date.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "publish_date_hierarchy_have_publish_year"
+			        }
+			      ]
+			    },
+			    "orry_youtube_data_FINAL_publish_date_has_date_hierarchy": {
+			      "Binding": {
+			        "ConceptualEntity": "orry_youtube_data_FINAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "orry_youtube_data_FINAL.publish_date": {
+			          "Target": {
+			            "Entity": "orry_youtube_data_FINAL.publish_date"
+			          }
+			        },
+			        "orry_youtube_data_FINAL.publish_date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "orry_youtube_data_FINAL.publish_date.date_hierarchy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "orry_youtube_data_FINAL.publish_date"
+			            },
+			            "Object": {
+			              "Role": "orry_youtube_data_FINAL.publish_date.date_hierarchy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "publish_date_have_publish_date_hierarchy"
+			        }
+			      ]
+			    },
+			    "dashboard_info_has_author": {
+			      "Binding": {
+			        "ConceptualEntity": "DashboardInfo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dashboard_info": {
+			          "Target": {
+			            "Entity": "dashboard_info"
+			          }
+			        },
+			        "dashboard_info.author": {
+			          "Target": {
+			            "Entity": "dashboard_info.author"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dashboard_info"
+			            },
+			            "Object": {
+			              "Role": "dashboard_info.author"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dashboard_info_have_authors"
+			        }
+			      ]
+			    },
+			    "dashboard_info_has_last_refresh": {
+			      "Binding": {
+			        "ConceptualEntity": "DashboardInfo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dashboard_info": {
+			          "Target": {
+			            "Entity": "dashboard_info"
+			          }
+			        },
+			        "dashboard_info.last_refresh": {
+			          "Target": {
+			            "Entity": "dashboard_info.last_refresh"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dashboard_info"
+			            },
+			            "Object": {
+			              "Role": "dashboard_info.last_refresh"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dashboard_info_have_last_refreshes"
+			        }
+			      ]
+			    },
+			    "dashboard_info_has_version": {
+			      "Binding": {
+			        "ConceptualEntity": "DashboardInfo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dashboard_info": {
+			          "Target": {
+			            "Entity": "dashboard_info"
+			          }
+			        },
+			        "dashboard_info.version": {
+			          "Target": {
+			            "Entity": "dashboard_info.version"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dashboard_info"
+			            },
+			            "Object": {
+			              "Role": "dashboard_info.version"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dashboard_info_have_versions"
+			        }
+			      ]
+			    },
+			    "orry_youtube_data_FINAL_has_long_videos_count": {
+			      "Binding": {
+			        "ConceptualEntity": "orry_youtube_data_FINAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "orry_youtube_data_FINAL": {
+			          "Target": {
+			            "Entity": "orry_youtube_data_FINAL"
+			          }
+			        },
+			        "orry_youtube_data_FINAL.long_videos_count": {
+			          "Target": {
+			            "Entity": "orry_youtube_data_FINAL.long_videos_count"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "orry_youtube_data_FINAL"
+			            },
+			            "Object": {
+			              "Role": "orry_youtube_data_FINAL.long_videos_count"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "orry_youtube_data_FINALs_have_long_videos_count"
+			        }
+			      ]
+			    },
+			    "orry_youtube_data_FINAL_has_short_videos_count": {
+			      "Binding": {
+			        "ConceptualEntity": "orry_youtube_data_FINAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "orry_youtube_data_FINAL": {
+			          "Target": {
+			            "Entity": "orry_youtube_data_FINAL"
+			          }
+			        },
+			        "orry_youtube_data_FINAL.short_videos_count": {
+			          "Target": {
+			            "Entity": "orry_youtube_data_FINAL.short_videos_count"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "orry_youtube_data_FINAL"
+			            },
+			            "Object": {
+			              "Role": "orry_youtube_data_FINAL.short_videos_count"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "orry_youtube_data_FINALs_have_short_videos_count"
+			        }
+			      ]
+			    },
+			    "orry_youtube_data_FINAL_has_total_engagement": {
+			      "Binding": {
+			        "ConceptualEntity": "orry_youtube_data_FINAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "orry_youtube_data_FINAL": {
+			          "Target": {
+			            "Entity": "orry_youtube_data_FINAL"
+			          }
+			        },
+			        "orry_youtube_data_FINAL.total_engagement": {
+			          "Target": {
+			            "Entity": "orry_youtube_data_FINAL.total_engagement"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "orry_youtube_data_FINAL"
+			            },
+			            "Object": {
+			              "Role": "orry_youtube_data_FINAL.total_engagement"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "orry_youtube_data_FINALs_have_total_engagement"
+			        }
+			      ]
+			    },
+			    "orry_youtube_data_FINAL_has_avg_engagement_rate": {
+			      "Binding": {
+			        "ConceptualEntity": "orry_youtube_data_FINAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "orry_youtube_data_FINAL": {
+			          "Target": {
+			            "Entity": "orry_youtube_data_FINAL"
+			          }
+			        },
+			        "orry_youtube_data_FINAL.avg_engagement_rate": {
+			          "Target": {
+			            "Entity": "orry_youtube_data_FINAL.avg_engagement_rate"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "orry_youtube_data_FINAL"
+			            },
+			            "Object": {
+			              "Role": "orry_youtube_data_FINAL.avg_engagement_rate"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "orry_youtube_data_FINALs_have_avg_engagement_rate"
+			        }
+			      ]
+			    },
+			    "orry_youtube_data_FINAL_has_views_to_likes_ratio": {
+			      "Binding": {
+			        "ConceptualEntity": "orry_youtube_data_FINAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "orry_youtube_data_FINAL": {
+			          "Target": {
+			            "Entity": "orry_youtube_data_FINAL"
+			          }
+			        },
+			        "orry_youtube_data_FINAL.views_to_likes_ratio": {
+			          "Target": {
+			            "Entity": "orry_youtube_data_FINAL.views_to_likes_ratio"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "orry_youtube_data_FINAL"
+			            },
+			            "Object": {
+			              "Role": "orry_youtube_data_FINAL.views_to_likes_ratio"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "orry_youtube_data_FINALs_have_views_to_likes_ratio"
+			        }
+			      ]
+			    },
+			    "orry_youtube_data_FINAL_has_top_10_engagement_threshold": {
+			      "Binding": {
+			        "ConceptualEntity": "orry_youtube_data_FINAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "orry_youtube_data_FINAL": {
+			          "Target": {
+			            "Entity": "orry_youtube_data_FINAL"
+			          }
+			        },
+			        "orry_youtube_data_FINAL.top_10_engagement_threshold": {
+			          "Target": {
+			            "Entity": "orry_youtube_data_FINAL.top_10_engagement_threshold"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "orry_youtube_data_FINAL"
+			            },
+			            "Object": {
+			              "Role": "orry_youtube_data_FINAL.top_10_engagement_threshold"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "orry_youtube_data_FINALs_have_top_10_engagement_threshold"
+			        }
+			      ]
+			    },
+			    "orry_youtube_data_FINAL_has_avg_views_per_video": {
+			      "Binding": {
+			        "ConceptualEntity": "orry_youtube_data_FINAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "orry_youtube_data_FINAL": {
+			          "Target": {
+			            "Entity": "orry_youtube_data_FINAL"
+			          }
+			        },
+			        "orry_youtube_data_FINAL.avg_views_per_video": {
+			          "Target": {
+			            "Entity": "orry_youtube_data_FINAL.avg_views_per_video"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "orry_youtube_data_FINAL"
+			            },
+			            "Object": {
+			              "Role": "orry_youtube_data_FINAL.avg_views_per_video"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "orry_youtube_data_FINALs_have_avg_views_per_video"
+			        }
+			      ]
+			    },
+			    "orry_youtube_data_FINAL_has_avg_duration": {
+			      "Binding": {
+			        "ConceptualEntity": "orry_youtube_data_FINAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "orry_youtube_data_FINAL": {
+			          "Target": {
+			            "Entity": "orry_youtube_data_FINAL"
+			          }
+			        },
+			        "orry_youtube_data_FINAL.avg_duration": {
+			          "Target": {
+			            "Entity": "orry_youtube_data_FINAL.avg_duration"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "orry_youtube_data_FINAL"
+			            },
+			            "Object": {
+			              "Role": "orry_youtube_data_FINAL.avg_duration"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "orry_youtube_data_FINALs_have_avg_duration"
+			        }
+			      ]
+			    },
+			    "orry_youtube_data_FINAL_has_avg_comments_per_video": {
+			      "Binding": {
+			        "ConceptualEntity": "orry_youtube_data_FINAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "orry_youtube_data_FINAL": {
+			          "Target": {
+			            "Entity": "orry_youtube_data_FINAL"
+			          }
+			        },
+			        "orry_youtube_data_FINAL.avg_comments_per_video": {
+			          "Target": {
+			            "Entity": "orry_youtube_data_FINAL.avg_comments_per_video"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "orry_youtube_data_FINAL"
+			            },
+			            "Object": {
+			              "Role": "orry_youtube_data_FINAL.avg_comments_per_video"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "orry_youtube_data_FINALs_have_avg_comments_per_video"
+			        }
+			      ]
+			    },
+			    "orry_youtube_data_FINAL_has_avg_likes_per_video": {
+			      "Binding": {
+			        "ConceptualEntity": "orry_youtube_data_FINAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "orry_youtube_data_FINAL": {
+			          "Target": {
+			            "Entity": "orry_youtube_data_FINAL"
+			          }
+			        },
+			        "orry_youtube_data_FINAL.avg_likes_per_video": {
+			          "Target": {
+			            "Entity": "orry_youtube_data_FINAL.avg_likes_per_video"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "orry_youtube_data_FINAL"
+			            },
+			            "Object": {
+			              "Role": "orry_youtube_data_FINAL.avg_likes_per_video"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "orry_youtube_data_FINALs_have_avg_likes_per_video"
+			        }
+			      ]
+			    },
+			    "orry_youtube_data_FINAL_has_total_videos": {
+			      "Binding": {
+			        "ConceptualEntity": "orry_youtube_data_FINAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "orry_youtube_data_FINAL": {
+			          "Target": {
+			            "Entity": "orry_youtube_data_FINAL"
+			          }
+			        },
+			        "orry_youtube_data_FINAL.total_videos": {
+			          "Target": {
+			            "Entity": "orry_youtube_data_FINAL.total_videos"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "orry_youtube_data_FINAL"
+			            },
+			            "Object": {
+			              "Role": "orry_youtube_data_FINAL.total_videos"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "orry_youtube_data_FINALs_have_total_videos"
+			        }
+			      ]
+			    },
+			    "orry_youtube_data_FINAL_has_engagement_rate1": {
+			      "Binding": {
+			        "ConceptualEntity": "orry_youtube_data_FINAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "orry_youtube_data_FINAL": {
+			          "Target": {
+			            "Entity": "orry_youtube_data_FINAL"
+			          }
+			        },
+			        "orry_youtube_data_FINAL.engagement_rate1": {
+			          "Target": {
+			            "Entity": "orry_youtube_data_FINAL.engagement_rate1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "orry_youtube_data_FINAL"
+			            },
+			            "Object": {
+			              "Role": "orry_youtube_data_FINAL.engagement_rate1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "orry_youtube_data_FINALs_have_engagement_rate"
+			        }
+			      ]
+			    },
+			    "orry_youtube_data_FINAL_has_total_comments": {
+			      "Binding": {
+			        "ConceptualEntity": "orry_youtube_data_FINAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "orry_youtube_data_FINAL": {
+			          "Target": {
+			            "Entity": "orry_youtube_data_FINAL"
+			          }
+			        },
+			        "orry_youtube_data_FINAL.total_comments": {
+			          "Target": {
+			            "Entity": "orry_youtube_data_FINAL.total_comments"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "orry_youtube_data_FINAL"
+			            },
+			            "Object": {
+			              "Role": "orry_youtube_data_FINAL.total_comments"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "orry_youtube_data_FINALs_have_total_comments"
+			        }
+			      ]
+			    },
+			    "orry_youtube_data_FINAL_has_total_likes": {
+			      "Binding": {
+			        "ConceptualEntity": "orry_youtube_data_FINAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "orry_youtube_data_FINAL": {
+			          "Target": {
+			            "Entity": "orry_youtube_data_FINAL"
+			          }
+			        },
+			        "orry_youtube_data_FINAL.total_likes": {
+			          "Target": {
+			            "Entity": "orry_youtube_data_FINAL.total_likes"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "orry_youtube_data_FINAL"
+			            },
+			            "Object": {
+			              "Role": "orry_youtube_data_FINAL.total_likes"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "orry_youtube_data_FINALs_have_total_likes"
+			        }
+			      ]
+			    },
+			    "orry_youtube_data_FINAL_has_total_views": {
+			      "Binding": {
+			        "ConceptualEntity": "orry_youtube_data_FINAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "orry_youtube_data_FINAL": {
+			          "Target": {
+			            "Entity": "orry_youtube_data_FINAL"
+			          }
+			        },
+			        "orry_youtube_data_FINAL.total_views": {
+			          "Target": {
+			            "Entity": "orry_youtube_data_FINAL.total_views"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "orry_youtube_data_FINAL"
+			            },
+			            "Object": {
+			              "Role": "orry_youtube_data_FINAL.total_views"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "orry_youtube_data_FINALs_have_total_views"
+			        }
+			      ]
+			    },
+			    "orry_youtube_data_FINAL_has_engagement_rate": {
+			      "Binding": {
+			        "ConceptualEntity": "orry_youtube_data_FINAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "orry_youtube_data_FINAL": {
+			          "Target": {
+			            "Entity": "orry_youtube_data_FINAL"
+			          }
+			        },
+			        "orry_youtube_data_FINAL.engagement_rate": {
+			          "Target": {
+			            "Entity": "orry_youtube_data_FINAL.engagement_rate"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "orry_youtube_data_FINAL"
+			            },
+			            "Object": {
+			              "Role": "orry_youtube_data_FINAL.engagement_rate"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "orry_youtube_data_FINALs_have_engagement_rates"
+			        }
+			      ]
+			    },
+			    "orry_youtube_data_FINAL_has_weekday_number": {
+			      "Binding": {
+			        "ConceptualEntity": "orry_youtube_data_FINAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "orry_youtube_data_FINAL": {
+			          "Target": {
+			            "Entity": "orry_youtube_data_FINAL"
+			          }
+			        },
+			        "orry_youtube_data_FINAL.weekday_number": {
+			          "Target": {
+			            "Entity": "orry_youtube_data_FINAL.weekday_number"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "orry_youtube_data_FINAL"
+			            },
+			            "Object": {
+			              "Role": "orry_youtube_data_FINAL.weekday_number"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "orry_youtube_data_FINALs_have_weekday_numbers"
+			        }
+			      ]
+			    },
+			    "orry_youtube_data_FINAL_has_weekday_name": {
+			      "Binding": {
+			        "ConceptualEntity": "orry_youtube_data_FINAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "orry_youtube_data_FINAL": {
+			          "Target": {
+			            "Entity": "orry_youtube_data_FINAL"
+			          }
+			        },
+			        "orry_youtube_data_FINAL.weekday_name": {
+			          "Target": {
+			            "Entity": "orry_youtube_data_FINAL.weekday_name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "orry_youtube_data_FINAL"
+			            },
+			            "Object": {
+			              "Role": "orry_youtube_data_FINAL.weekday_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "orry_youtube_data_FINALs_have_weekday_names"
+			        }
+			      ]
+			    },
+			    "orry_youtube_data_FINAL_has_video_type": {
+			      "Binding": {
+			        "ConceptualEntity": "orry_youtube_data_FINAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "orry_youtube_data_FINAL": {
+			          "Target": {
+			            "Entity": "orry_youtube_data_FINAL"
+			          }
+			        },
+			        "orry_youtube_data_FINAL.video_type": {
+			          "Target": {
+			            "Entity": "orry_youtube_data_FINAL.video_type"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "orry_youtube_data_FINAL"
+			            },
+			            "Object": {
+			              "Role": "orry_youtube_data_FINAL.video_type"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "orry_youtube_data_FINALs_have_video_types"
+			        }
+			      ]
+			    },
+			    "orry_youtube_data_FINAL_has_video_length_sec": {
+			      "Binding": {
+			        "ConceptualEntity": "orry_youtube_data_FINAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "orry_youtube_data_FINAL": {
+			          "Target": {
+			            "Entity": "orry_youtube_data_FINAL"
+			          }
+			        },
+			        "orry_youtube_data_FINAL.video_length_sec": {
+			          "Target": {
+			            "Entity": "orry_youtube_data_FINAL.video_length_sec"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "orry_youtube_data_FINAL"
+			            },
+			            "Object": {
+			              "Role": "orry_youtube_data_FINAL.video_length_sec"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "orry_youtube_data_FINALs_have_video_length_sec"
+			        }
+			      ]
+			    },
+			    "orry_youtube_data_FINAL_has_thumbnail_url": {
+			      "Binding": {
+			        "ConceptualEntity": "orry_youtube_data_FINAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "orry_youtube_data_FINAL": {
+			          "Target": {
+			            "Entity": "orry_youtube_data_FINAL"
+			          }
+			        },
+			        "orry_youtube_data_FINAL.thumbnail_url": {
+			          "Target": {
+			            "Entity": "orry_youtube_data_FINAL.thumbnail_url"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "orry_youtube_data_FINAL"
+			            },
+			            "Object": {
+			              "Role": "orry_youtube_data_FINAL.thumbnail_url"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "orry_youtube_data_FINALs_have_thumbnail_urls"
+			        }
+			      ]
+			    },
+			    "orry_youtube_data_FINAL_has_video_length": {
+			      "Binding": {
+			        "ConceptualEntity": "orry_youtube_data_FINAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "orry_youtube_data_FINAL": {
+			          "Target": {
+			            "Entity": "orry_youtube_data_FINAL"
+			          }
+			        },
+			        "orry_youtube_data_FINAL.video_length": {
+			          "Target": {
+			            "Entity": "orry_youtube_data_FINAL.video_length"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "orry_youtube_data_FINAL"
+			            },
+			            "Object": {
+			              "Role": "orry_youtube_data_FINAL.video_length"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "orry_youtube_data_FINALs_have_video_lengths"
+			        }
+			      ]
+			    },
+			    "orry_youtube_data_FINAL_has_sum_of_comments": {
+			      "Binding": {
+			        "ConceptualEntity": "orry_youtube_data_FINAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "orry_youtube_data_FINAL": {
+			          "Target": {
+			            "Entity": "orry_youtube_data_FINAL"
+			          }
+			        },
+			        "orry_youtube_data_FINAL.sum_of_comments": {
+			          "Target": {
+			            "Entity": "orry_youtube_data_FINAL.sum_of_comments"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "orry_youtube_data_FINAL"
+			            },
+			            "Object": {
+			              "Role": "orry_youtube_data_FINAL.sum_of_comments"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "orry_youtube_data_FINALs_have_sum_of_comments"
+			        }
+			      ]
+			    },
+			    "orry_youtube_data_FINAL_has_sum_of_likes": {
+			      "Binding": {
+			        "ConceptualEntity": "orry_youtube_data_FINAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "orry_youtube_data_FINAL": {
+			          "Target": {
+			            "Entity": "orry_youtube_data_FINAL"
+			          }
+			        },
+			        "orry_youtube_data_FINAL.sum_of_likes": {
+			          "Target": {
+			            "Entity": "orry_youtube_data_FINAL.sum_of_likes"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "orry_youtube_data_FINAL"
+			            },
+			            "Object": {
+			              "Role": "orry_youtube_data_FINAL.sum_of_likes"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "orry_youtube_data_FINALs_have_sum_of_likes"
+			        }
+			      ]
+			    },
+			    "orry_youtube_data_FINAL_has_sum_of_views": {
+			      "Binding": {
+			        "ConceptualEntity": "orry_youtube_data_FINAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "orry_youtube_data_FINAL": {
+			          "Target": {
+			            "Entity": "orry_youtube_data_FINAL"
+			          }
+			        },
+			        "orry_youtube_data_FINAL.sum_of_views": {
+			          "Target": {
+			            "Entity": "orry_youtube_data_FINAL.sum_of_views"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "orry_youtube_data_FINAL"
+			            },
+			            "Object": {
+			              "Role": "orry_youtube_data_FINAL.sum_of_views"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "orry_youtube_data_FINALs_have_sum_of_views"
+			        }
+			      ]
+			    },
+			    "orry_youtube_data_FINAL_has_publish_date": {
+			      "Binding": {
+			        "ConceptualEntity": "orry_youtube_data_FINAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "orry_youtube_data_FINAL": {
+			          "Target": {
+			            "Entity": "orry_youtube_data_FINAL"
+			          }
+			        },
+			        "orry_youtube_data_FINAL.publish_date": {
+			          "Target": {
+			            "Entity": "orry_youtube_data_FINAL.publish_date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "orry_youtube_data_FINAL"
+			            },
+			            "Object": {
+			              "Role": "orry_youtube_data_FINAL.publish_date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "orry_youtube_data_FINALs_have_publish_date"
+			        }
+			      ]
+			    },
+			    "orry_youtube_data_FINAL_has_video_name": {
+			      "Binding": {
+			        "ConceptualEntity": "orry_youtube_data_FINAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "orry_youtube_data_FINAL": {
+			          "Target": {
+			            "Entity": "orry_youtube_data_FINAL"
+			          }
+			        },
+			        "orry_youtube_data_FINAL.video_name": {
+			          "Target": {
+			            "Entity": "orry_youtube_data_FINAL.video_name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "orry_youtube_data_FINAL"
+			            },
+			            "Object": {
+			              "Role": "orry_youtube_data_FINAL.video_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "orry_youtube_data_FINALs_have_video_names"
+			        }
+			      ]
+			    },
+			    "orry_youtube_data_FINAL_is_published_on_publish_date": {
+			      "Binding": {
+			        "ConceptualEntity": "orry_youtube_data_FINAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "orry_youtube_data_FINAL": {
+			          "Target": {
+			            "Entity": "orry_youtube_data_FINAL"
+			          }
+			        },
+			        "orry_youtube_data_FINAL.publish_date": {
+			          "Target": {
+			            "Entity": "orry_youtube_data_FINAL.publish_date"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "When": {
+			          "Role": "orry_youtube_data_FINAL.publish_date"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Verbs": [
+			              {
+			                "publish": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "orry_youtube_data_FINAL"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.9,
+			          "ID": "orry_youtube_data_FINALs_are_published_on_publish_date"
+			        }
+			      ]
+			    },
+			    "orry_youtube_data_FINAL_publish_date_date_hierarchy_has_orry_youtube_data_FINAL_publish_date_quarter": {
+			      "Binding": {
+			        "ConceptualEntity": "orry_youtube_data_FINAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "orry_youtube_data_FINAL.publish_date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "orry_youtube_data_FINAL.publish_date.date_hierarchy"
+			          }
+			        },
+			        "orry_youtube_data_FINAL.publish_date.quarter": {
+			          "Target": {
+			            "Entity": "orry_youtube_data_FINAL.publish_date.quarter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "orry_youtube_data_FINAL.publish_date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "orry_youtube_data_FINAL.publish_date.quarter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "publish_date_hierarchy_have_publish_quarter"
+			        }
+			      ]
+			    },
+			    "orry_youtube_data_FINAL_publish_date_date_hierarchy_has_orry_youtube_data_FINAL_publish_date_month": {
+			      "Binding": {
+			        "ConceptualEntity": "orry_youtube_data_FINAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "orry_youtube_data_FINAL.publish_date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "orry_youtube_data_FINAL.publish_date.date_hierarchy"
+			          }
+			        },
+			        "orry_youtube_data_FINAL.publish_date.month": {
+			          "Target": {
+			            "Entity": "orry_youtube_data_FINAL.publish_date.month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "orry_youtube_data_FINAL.publish_date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "orry_youtube_data_FINAL.publish_date.month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "publish_date_hierarchy_have_publish_month"
+			        }
+			      ]
+			    },
+			    "orry_youtube_data_FINAL_publish_date_date_hierarchy_has_orry_youtube_data_FINAL_publish_date_day": {
+			      "Binding": {
+			        "ConceptualEntity": "orry_youtube_data_FINAL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "orry_youtube_data_FINAL.publish_date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "orry_youtube_data_FINAL.publish_date.date_hierarchy"
+			          }
+			        },
+			        "orry_youtube_data_FINAL.publish_date.day": {
+			          "Target": {
+			            "Entity": "orry_youtube_data_FINAL.publish_date.day"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "orry_youtube_data_FINAL.publish_date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "orry_youtube_data_FINAL.publish_date.day"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "publish_date_hierarchy_have_publish_day"
+			        }
+			      ]
+			    },
+			    "dashboard_info_last_refresh_has_date_hierarchy": {
+			      "Binding": {
+			        "ConceptualEntity": "DashboardInfo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dashboard_info.last_refresh": {
+			          "Target": {
+			            "Entity": "dashboard_info.last_refresh"
+			          }
+			        },
+			        "dashboard_info.last_refresh.date_hierarchy": {
+			          "Target": {
+			            "Entity": "dashboard_info.last_refresh.date_hierarchy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dashboard_info.last_refresh"
+			            },
+			            "Object": {
+			              "Role": "dashboard_info.last_refresh.date_hierarchy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "last_refreshes_have_last_refresh_date_hierarchies"
+			        }
+			      ]
+			    },
+			    "dashboard_info_last_refresh_date_hierarchy_has_dashboard_info_last_refresh_year": {
+			      "Binding": {
+			        "ConceptualEntity": "DashboardInfo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dashboard_info.last_refresh.date_hierarchy": {
+			          "Target": {
+			            "Entity": "dashboard_info.last_refresh.date_hierarchy"
+			          }
+			        },
+			        "dashboard_info.last_refresh.year": {
+			          "Target": {
+			            "Entity": "dashboard_info.last_refresh.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dashboard_info.last_refresh.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "dashboard_info.last_refresh.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "last_refresh_date_hierarchies_have_last_refresh_years"
+			        }
+			      ]
+			    },
+			    "dashboard_info_last_refresh_date_hierarchy_has_dashboard_info_last_refresh_quarter": {
+			      "Binding": {
+			        "ConceptualEntity": "DashboardInfo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dashboard_info.last_refresh.date_hierarchy": {
+			          "Target": {
+			            "Entity": "dashboard_info.last_refresh.date_hierarchy"
+			          }
+			        },
+			        "dashboard_info.last_refresh.quarter": {
+			          "Target": {
+			            "Entity": "dashboard_info.last_refresh.quarter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dashboard_info.last_refresh.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "dashboard_info.last_refresh.quarter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "last_refresh_date_hierarchies_have_last_refresh_quarters"
+			        }
+			      ]
+			    },
+			    "dashboard_info_last_refresh_date_hierarchy_has_dashboard_info_last_refresh_month": {
+			      "Binding": {
+			        "ConceptualEntity": "DashboardInfo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dashboard_info.last_refresh.date_hierarchy": {
+			          "Target": {
+			            "Entity": "dashboard_info.last_refresh.date_hierarchy"
+			          }
+			        },
+			        "dashboard_info.last_refresh.month": {
+			          "Target": {
+			            "Entity": "dashboard_info.last_refresh.month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dashboard_info.last_refresh.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "dashboard_info.last_refresh.month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "last_refresh_date_hierarchies_have_last_refresh_months"
+			        }
+			      ]
+			    },
+			    "dashboard_info_last_refresh_date_hierarchy_has_dashboard_info_last_refresh_day": {
+			      "Binding": {
+			        "ConceptualEntity": "DashboardInfo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dashboard_info.last_refresh.date_hierarchy": {
+			          "Target": {
+			            "Entity": "dashboard_info.last_refresh.date_hierarchy"
+			          }
+			        },
+			        "dashboard_info.last_refresh.day": {
+			          "Target": {
+			            "Entity": "dashboard_info.last_refresh.day"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dashboard_info.last_refresh.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "dashboard_info.last_refresh.day"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "last_refresh_date_hierarchies_have_last_refresh_days"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

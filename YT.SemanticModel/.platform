@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "YT"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "23a53b66-2224-46bb-82f9-d8fb2f6e9fc4"
+  }
+}

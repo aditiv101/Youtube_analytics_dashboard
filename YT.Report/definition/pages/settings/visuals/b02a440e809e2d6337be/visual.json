@@ -1,0 +1,178 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
+  "name": "b02a440e809e2d6337be",
+  "position": {
+    "x": 0,
+    "y": 301.42857142857144,
+    "z": 0,
+    "height": 214.28571428571431,
+    "width": 411.42857142857144
+  },
+  "visual": {
+    "visualType": "multiRowCard",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "DashboardInfo"
+                    }
+                  },
+                  "Property": "Author"
+                }
+              },
+              "queryRef": "DashboardInfo.Author",
+              "nativeQueryRef": "Author"
+            },
+            {
+              "field": {
+                "HierarchyLevel": {
+                  "Expression": {
+                    "Hierarchy": {
+                      "Expression": {
+                        "PropertyVariationSource": {
+                          "Expression": {
+                            "SourceRef": {
+                              "Entity": "DashboardInfo"
+                            }
+                          },
+                          "Name": "Variation",
+                          "Property": "Last Refresh"
+                        }
+                      },
+                      "Hierarchy": "Date Hierarchy"
+                    }
+                  },
+                  "Level": "Year"
+                }
+              },
+              "queryRef": "DashboardInfo.Last Refresh.Variation.Date Hierarchy.Year",
+              "nativeQueryRef": "Last Refresh Year"
+            },
+            {
+              "field": {
+                "HierarchyLevel": {
+                  "Expression": {
+                    "Hierarchy": {
+                      "Expression": {
+                        "PropertyVariationSource": {
+                          "Expression": {
+                            "SourceRef": {
+                              "Entity": "DashboardInfo"
+                            }
+                          },
+                          "Name": "Variation",
+                          "Property": "Last Refresh"
+                        }
+                      },
+                      "Hierarchy": "Date Hierarchy"
+                    }
+                  },
+                  "Level": "Quarter"
+                }
+              },
+              "queryRef": "DashboardInfo.Last Refresh.Variation.Date Hierarchy.Quarter",
+              "nativeQueryRef": "Last Refresh Quarter"
+            },
+            {
+              "field": {
+                "HierarchyLevel": {
+                  "Expression": {
+                    "Hierarchy": {
+                      "Expression": {
+                        "PropertyVariationSource": {
+                          "Expression": {
+                            "SourceRef": {
+                              "Entity": "DashboardInfo"
+                            }
+                          },
+                          "Name": "Variation",
+                          "Property": "Last Refresh"
+                        }
+                      },
+                      "Hierarchy": "Date Hierarchy"
+                    }
+                  },
+                  "Level": "Month"
+                }
+              },
+              "queryRef": "DashboardInfo.Last Refresh.Variation.Date Hierarchy.Month",
+              "nativeQueryRef": "Last Refresh Month"
+            },
+            {
+              "field": {
+                "HierarchyLevel": {
+                  "Expression": {
+                    "Hierarchy": {
+                      "Expression": {
+                        "PropertyVariationSource": {
+                          "Expression": {
+                            "SourceRef": {
+                              "Entity": "DashboardInfo"
+                            }
+                          },
+                          "Name": "Variation",
+                          "Property": "Last Refresh"
+                        }
+                      },
+                      "Hierarchy": "Date Hierarchy"
+                    }
+                  },
+                  "Level": "Day"
+                }
+              },
+              "queryRef": "DashboardInfo.Last Refresh.Variation.Date Hierarchy.Day",
+              "nativeQueryRef": "Last Refresh Day"
+            },
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "DashboardInfo"
+                        }
+                      },
+                      "Property": "Version"
+                    }
+                  },
+                  "Function": 0
+                }
+              },
+              "queryRef": "Sum(DashboardInfo.Version)",
+              "nativeQueryRef": "Sum of Version"
+            }
+          ]
+        }
+      }
+    },
+    "objects": {
+      "dataLabels": [
+        {
+          "properties": {
+            "fontFamily": {
+              "expr": {
+                "Literal": {
+                  "Value": "'''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "20D"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

@@ -1,0 +1,183 @@
+table orry_youtube_data_FINAL
+	lineageTag: b0e4fecf-bef2-4dbd-bbd6-ef58c338f06d
+
+	measure 'Total Views' = SUM('orry_youtube_data_FINAL'[sum_of_views])
+		formatString: 0
+		lineageTag: efb81593-0f54-4c45-87ba-9f60a41986d9
+
+	measure 'Total Likes' = SUM('orry_youtube_data_FINAL'[sum_of_likes])
+		formatString: 0
+		lineageTag: cc1e1fbc-a25d-4468-96b6-0fd21a9ea0b1
+
+	measure 'Total Comments' = SUM('orry_youtube_data_FINAL'[sum_of_comments])
+		formatString: 0
+		lineageTag: 104150d9-3433-4aab-8beb-bfcaee149ddb
+
+	measure 'Engagement Rate' = DIVIDE(SUM('orry_youtube_data_FINAL'[sum_of_likes]) + SUM('orry_youtube_data_FINAL'[sum_of_comments]), SUM('orry_youtube_data_FINAL'[sum_of_views]))
+		formatString: 0.00%
+		lineageTag: aca27024-0395-4742-82c7-5ecc60ba1da0
+
+	measure 'Total Videos' = COUNTROWS('orry_youtube_data_FINAL')
+		formatString: 0
+		lineageTag: d1dff346-8433-4206-b744-94946a387873
+
+	measure 'Avg Likes per Video' = AVERAGE('orry_youtube_data_FINAL'[sum_of_likes])
+		formatString: 0
+		lineageTag: bc930842-526f-45e4-9d9d-3893bcb0c6a2
+
+	measure 'Avg Comments per Video' = AVERAGE('orry_youtube_data_FINAL'[sum_of_comments])
+		formatString: 0
+		lineageTag: 72cb53a3-83ad-4183-85f3-1350e396fc34
+
+	measure 'Avg Duration (Seconds)' = AVERAGE('orry_youtube_data_FINAL'[video_length_sec])
+		formatString: 0
+		lineageTag: 7fd81ce5-a4aa-4d26-9dc4-8eb04991e011
+
+	measure 'Avg Views per Video' = AVERAGE('orry_youtube_data_FINAL'[sum_of_views])
+		formatString: #,##0
+		lineageTag: 7ecd28f9-0a04-4783-a492-1baff9f7a230
+
+	measure 'Top 10% Engagement Threshold' = PERCENTILE.INC(ALL('orry_youtube_data_FINAL'[sum_of_likes]), 0.9)
+		formatString: 0
+		lineageTag: d251cf70-2731-4242-a96f-8624a6973242
+
+	measure 'Views to Likes Ratio' = DIVIDE([Total Views], [Total Likes], 0)
+		formatString: 0.00
+		lineageTag: c9c6e45d-332a-498d-98ed-759e534fb15d
+
+	measure 'Avg Engagement Rate' = AVERAGEX('orry_youtube_data_FINAL', DIVIDE([sum_of_likes] + [sum_of_comments], [sum_of_views], 0))
+		formatString: 0.00%
+		lineageTag: 8a8919f4-b386-49d9-b4df-91fa6524b90f
+
+	measure 'Total Engagement' = [Total Likes] + [Total Comments]
+		formatString: #,##0
+		lineageTag: 430b679e-868c-487c-80bb-43806264ddb1
+
+	measure 'Short Videos Count' = CALCULATE([Total Videos], 'orry_youtube_data_FINAL'[video_type] = "Short")
+		formatString: 0
+		lineageTag: 10f9757d-c30e-40a0-9dae-86943a208739
+
+	measure 'Long Videos Count' = CALCULATE([Total Videos], 'orry_youtube_data_FINAL'[video_type] = "Long")
+		formatString: 0
+		lineageTag: 499b2d97-d723-4b80-89ca-5f221978b0f0
+
+	column video_name
+		dataType: string
+		lineageTag: 6d55656e-e10d-4eed-8cbf-6064c0e3aec0
+		summarizeBy: none
+		sourceColumn: video_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column publish_date
+		dataType: dateTime
+		formatString: dd-mm-yyyy hh:nn:ss
+		lineageTag: 42f51e77-a2fe-4336-8800-6422a3652f2e
+		summarizeBy: none
+		sourceColumn: publish_date
+
+		variation Variation
+			isDefault
+			relationship: fb5443fc-1e96-4e81-a951-ab6ecccba74a
+			defaultHierarchy: LocalDateTable_babb5a8a-0931-492f-adc7-77cbf06b82b5.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isDateTimeCustom":true}
+
+	column sum_of_views
+		dataType: int64
+		formatString: 0
+		lineageTag: e9fe4651-789e-4546-990f-e25ad83c6d60
+		summarizeBy: sum
+		sourceColumn: sum_of_views
+
+		annotation SummarizationSetBy = Automatic
+
+	column sum_of_likes
+		dataType: int64
+		formatString: 0
+		lineageTag: 44710322-fea2-4345-9123-c17a25a6b99c
+		summarizeBy: sum
+		sourceColumn: sum_of_likes
+
+		annotation SummarizationSetBy = Automatic
+
+	column sum_of_comments
+		dataType: int64
+		formatString: 0
+		lineageTag: cb557b3a-ab2a-45b3-8ab4-3ca7acbf2ddf
+		summarizeBy: sum
+		sourceColumn: sum_of_comments
+
+		annotation SummarizationSetBy = Automatic
+
+	column video_length
+		dataType: string
+		lineageTag: 860df9a8-744d-4e17-9141-cf93faee1274
+		summarizeBy: none
+		sourceColumn: video_length
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isText":true}
+
+	column thumbnail_url
+		dataType: string
+		lineageTag: 73b85e09-6b47-4031-941e-eea1a32313d4
+		dataCategory: ImageUrl
+		summarizeBy: none
+		sourceColumn: thumbnail_url
+
+		annotation SummarizationSetBy = Automatic
+
+	column video_length_sec
+		dataType: int64
+		formatString: 0
+		lineageTag: 1f2f8b3a-2d5f-4a8c-9c1e-1a2b3c4d5e6f
+		summarizeBy: sum
+		sourceColumn: video_length_sec
+
+	column video_type = IF([video_length_sec] < 60, "Short", "Long")
+		dataType: string
+		lineageTag: f8b22cd6-4da7-4780-a90a-fbbc8ef7fb68
+		summarizeBy: none
+
+	column 'Weekday Name' = FORMAT([publish_date], "dddd")
+		dataType: string
+		lineageTag: d45117f6-c36d-4823-a4c4-254c0f61e71c
+		summarizeBy: none
+
+	column 'Weekday Number' = WEEKDAY([publish_date], 2)
+		dataType: int64
+		lineageTag: f23fcaa8-5298-4dbb-9ea2-118890e974c8
+		summarizeBy: none
+
+	column Engagement_Rate = ```
+			([sum_of_likes] + [sum_of_comments]) / [sum_of_views]
+			
+			```
+		lineageTag: 8a9829be-6043-4539-9e30-0de1145799c6
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition orry_youtube_data_FINAL = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("D:\\aditi projects\\bia project\\orry_youtube_data_FINAL.csv"), [Delimiter=",", Columns=7, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers", {{"video_name", type text}, {"publish_date", type datetime}, {"sum_of_views", Int64.Type}, {"sum_of_likes", Int64.Type}, {"sum_of_comments", Int64.Type}, {"video_length", type text}, {"thumbnail_url", type text}}),
+				    #"Added DurationSeconds" = Table.AddColumn(#"Changed Type", "DurationSeconds", each let dur = Text.AfterDelimiter([video_length], "PT"), mins = if Text.Contains(dur, "M") then Number.FromText(Text.BeforeDelimiter(dur, "M")) else 0, secsText = if Text.Contains(dur, "S") then (if Text.Contains(dur, "M") then Text.BetweenDelimiters(dur, "M", "S") else Text.BeforeDelimiter(dur, "S")) else "0", secs = Number.FromText(Text.Trim(secsText)), totalSec = (mins * 60) + secs in totalSec, Int64.Type),
+				    #"Changed Type1" = Table.TransformColumnTypes(#"Added DurationSeconds",{{"publish_date", type datetime}}),
+				    #"Renamed Columns" = Table.RenameColumns(#"Changed Type1",{{"DurationSeconds", "video_length_sec"}})
+				in
+				    #"Renamed Columns"
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

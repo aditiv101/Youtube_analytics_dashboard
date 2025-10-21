@@ -1,0 +1,10 @@
+relationship fb5443fc-1e96-4e81-a951-ab6ecccba74a
+	joinOnDateBehavior: datePartOnly
+	fromColumn: orry_youtube_data_FINAL.publish_date
+	toColumn: LocalDateTable_babb5a8a-0931-492f-adc7-77cbf06b82b5.Date
+
+relationship 61f11eff-e9f9-4bd4-912a-7e019d631651
+	joinOnDateBehavior: datePartOnly
+	fromColumn: DashboardInfo.'Last Refresh'
+	toColumn: LocalDateTable_1e8a99d6-78b9-43a2-942a-ab1ada8d575d.Date
+
