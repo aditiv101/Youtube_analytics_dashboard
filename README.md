@@ -20,11 +20,11 @@ A comprehensive, multi-page Power BI dashboard analyzing YouTube channel perform
 
 | Overview | Video Performance | Engagement Insights |
 |----------|-------------------|---------------------|
-| [![Overview](previews/1_overview.png)](previews/1_overview.png) | [![Video Performance](previews/2_video_performance.png)](previews/2_video_performance.png) | [![Engagement Insights](previews/3_engagement_insights.png)](previews/3_engagement_insights.png) |
+| [![Overview](https://github.com/aditiv101/Youtube_analytics_dashboard/raw/main/Overview.png)](https://github.com/aditiv101/Youtube_analytics_dashboard/raw/main/Overview.png) | [![Video Performance](https://github.com/aditiv101/Youtube_analytics_dashboard/raw/main/Video%20Performance.png)](https://github.com/aditiv101/Youtube_analytics_dashboard/raw/main/Video%20Performance.png) | [![Engagement Insights](https://github.com/aditiv101/Youtube_analytics_dashboard/raw/main/Engagement%20Insights.png)](https://github.com/aditiv101/Youtube_analytics_dashboard/raw/main/Engagement%20Insights.png) |
 
 | Content Gallery | Settings/About |
 |----------------|----------------|
-| [![Content Gallery](previews/4_content_gallery.png)](previews/4_content_gallery.png) | [![Settings/About](previews/5_settings_about.png)](previews/5_settings_about.png) |
+| [![Content Gallery](https://github.com/aditiv101/Youtube_analytics_dashboard/raw/main/Content%20Gallery.png)](https://github.com/aditiv101/Youtube_analytics_dashboard/raw/main/Content%20Gallery.png) | [![Settings/About](https://github.com/aditiv101/Youtube_analytics_dashboard/raw/main/Settings%20About.png)](https://github.com/aditiv101/Youtube_analytics_dashboard/raw/main/Settings%20About.png) |
 
 Click on any image to view full size
 ---
