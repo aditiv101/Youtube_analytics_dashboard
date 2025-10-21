@@ -15,7 +15,18 @@ A comprehensive, multi-page Power BI dashboard analyzing YouTube channel perform
 - **Date Range**: November 14, 2024 - October 18, 2025
 - **Columns**: 7 base columns + 4 calculated columns
 - **Measures**: 16 DAX measures
+---
+## 📸 Dashboard Previews
 
+| Overview | Video Performance | Engagement Insights |
+|----------|-------------------|---------------------|
+| [![Overview](previews/1_overview.png)](previews/1_overview.png) | [![Video Performance](previews/2_video_performance.png)](previews/2_video_performance.png) | [![Engagement Insights](previews/3_engagement_insights.png)](previews/3_engagement_insights.png) |
+
+| Content Gallery | Settings/About |
+|----------------|----------------|
+| [![Content Gallery](previews/4_content_gallery.png)](previews/4_content_gallery.png) | [![Settings/About](previews/5_settings_about.png)](previews/5_settings_about.png) |
+
+Click on any image to view full size
 ---
 
 ## ✅ What's Complete
